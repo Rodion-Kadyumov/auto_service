@@ -1,0 +1,41 @@
+.clients {
+  margin-bottom: 200px;
+}
+
+.clients-title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #989898;
+  margin-left: 130px;
+  margin-bottom: 50px;
+}
+
+.clients-logo {
+  cursor: pointer;
+  margin-right: -40px;
+  border-radius: 50%;
+}
+.clients-logo:hover {
+  transform: rotateY(360deg);
+  box-shadow: 13px 13px 32px 0 rgb(0%, 0%, 0%);
+  transition: 2s;
+}
+
+@media screen and (max-width: 768px) {
+
+  .clients {
+    margin-bottom: 120px;
+  }
+
+  .clients-title {
+    margin-left: 50px;
+  }
+
+  .clients-logo {
+    margin-left: 60px;
+    margin-bottom: 40px;
+  }
+}

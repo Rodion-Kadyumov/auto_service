@@ -1,0 +1,24 @@
+.services {
+  margin-left: 130px;
+  margin-bottom: 180px;
+}
+
+.services-title {
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 95%;
+  letter-spacing: -0.03em;
+  color: #2C2C2C;
+}
+
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    margin-left: 50px;
+    margin-bottom: 120px;
+  }
+}

@@ -1,0 +1,46 @@
+.store {
+  display: flex;
+  background: #FEC110;
+  height: 180px;
+}
+
+.store-image {
+  padding-left: 200px;
+}
+
+.store-text {
+  margin-right: 300px;
+}
+
+.store-text__mark {
+  margin-right: 15px;
+}
+
+.store-text__description {
+  display: flex;
+
+}
+
+.store-block {
+  margin-top: 70px;
+}
+
+.store-block__image {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .store {
+    padding-left: 50px;
+    margin-top: -95px;
+  }
+
+  .store-image {
+    display: none;
+  }
+
+  .store-text {
+    margin-right: 70px;
+  }
+}

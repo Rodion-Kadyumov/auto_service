@@ -1,0 +1,136 @@
+.menu {
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 130px;
+  width: 1472px;
+  height: 600px;
+  background-color: #FFFFFF;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.8s ease 0s;
+  margin-top: 70px;
+}
+
+.menu.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu-block {
+  display: flex;
+}
+.menu-block__left {
+  margin-right: 400px;
+  margin-bottom: 130px;
+}
+
+.menu-block__left__phone {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 110%;
+  letter-spacing: -0.015em;
+  color: #FEC110;
+}
+
+.menu-block__left__mail {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 120%;
+  text-decoration-line: underline;
+  color: #2C2C2C;
+}
+
+.menu-block__left__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #989898;
+  margin-bottom: 150px;
+}
+
+.menu-block__left__addres {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #2C2C2C;
+}
+
+.menu-block__left__gps {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #989898;
+}
+
+.menu-block__left__network__link {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.menu-block__left__network__link:nth-child(1):hover {
+  border-color: #4680C2;
+  background-color: #4680C2;
+}
+.menu-block__left__network__link:nth-child(2):hover {
+  border-color: #C13584;
+  background-color: #C13584;
+}
+.menu-block__left__network__link:nth-child(3):hover {
+  border-color: #2bc4ff;
+  background-color: #2bc4ff;
+}
+.menu-block__left__network__link:nth-child(4):hover {
+  border-color: #c4302b;
+  background-color: #c4302b;
+}
+
+.menu-block__right__title {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #989898;
+  margin-bottom: 20px;
+}
+
+.menu-block__right__line {
+  width: 428px;
+  height: 0px;
+  border: 1px solid #B6B6B6;
+  margin-bottom: 20px;
+}
+
+.menu-block__right__link {
+  display: block;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2C2C2C;
+  margin-bottom: 12px;
+}
+
+.menu-block__right__lk {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #2C2C2C;
+  margin-bottom: 220px;
+}
+.menu-block__right__link:hover, .menu-block__right__lk:hover {
+  color: #FEC110;
+}
+
+.menu-block__right__conf {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #2C2C2C;
+}

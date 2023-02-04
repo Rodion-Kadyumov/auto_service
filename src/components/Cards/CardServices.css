@@ -1,0 +1,34 @@
+.services-card {
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.services-card__bottom {
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding-top: 20px;
+  padding-left: 40px;
+  margin-top: -4px;
+}
+
+.services-card__bottom__title {
+  font-size: 21px;
+  letter-spacing: -0.01em;
+  color: #2C2C2C;
+  width: 200px;
+  margin-right: 350px;
+  
+}
+
+.services-card__bottom__num {
+  font-size: 21px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #989898;
+}
+
+.services-card__bottom__more {
+  width: 40px;
+  height: 40px;
+}

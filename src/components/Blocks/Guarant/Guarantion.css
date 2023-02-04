@@ -1,0 +1,44 @@
+.guaranties {
+  display: flex;
+  margin-left: 130px;
+  margin-bottom: 60px;
+}
+
+.guaranties-left {
+  margin-right: 45px;
+}
+
+.guaranties-left__title {
+  width: 650px;
+  height: 136px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: #2C2C2C;
+}
+
+.guaranties-left__text {
+  width: 420px;
+  height: 66px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+
+.guaranties-right__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .guaranties {
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+
+  .guaranties-left {
+  margin-bottom: 40px;
+  }
+}
